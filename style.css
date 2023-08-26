@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Handjet', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#float_box{
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 700px;
+    left: 850px !important;
+    width: 500px;
+    border-radius: 15px;
+    height: 200px;
+    opacity: 0.7;
+}
+#float_box:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button i{
+    padding: 5px;
+}
+.red{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.blue{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.green{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media (max-width:700px) {
+    .float_content{
+        display: none;
+    }
+    
+}
+
+
+/* section1 */
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content1 {
+    width: 65%;
+    padding: 30px;
+    line-height: 40px;
+    float: left;
+    text-align: justify;
+    margin-top: 0px;
+}
+
+.image1 {
+    /* width: 35%; */
+    float: right;
+    margin: 50px;
+}
+
+.download_application {
+    padding: 15px;
+    background-color: rgb(229, 229, 229);
+    border: none;
+    margin: 35px 25px;
+}
+
+.download_application:hover {
+    background-color: grey;
+}
+@media (max-width:1250px){
+    .content1{
+        width: 100%;
+    }
+}
+/* section2 */
+.section2{
+    background-color: rgb(213, 213, 213);
+    margin-bottom: -15px;
+    display: flex;
+}
+.content2{
+    line-height: 35px;
+    padding: 100px 25px;
+    text-align: justify;
+}
+.section2 img{
+    margin: 25px 15px;
+}
+@media (max-width:650px){
+    .section2 img{
+        display: none;
+    }
+}
+/* feature */
+.features {
+    background-color: rgb(88, 88, 88);
+    text-align: center;
+    color: white;
+}
+
+.features h1 {
+    line-height: 30px;
+    margin-top: 15px;
+    padding: 50px 0px 25px;
+    font-size: 50px;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    padding: 45px;
+    justify-content: space-around;
+}
+
+.features p {
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    margin: 20px;
+}
+
+/* pricing */
+.pricing h1,h3{
+    text-align: center;
+    line-height: 60px;
+}
+.pricing h1{
+    font-size: 75px;
+    margin-top: 80px;
+}
+.pricing h3{
+    margin-bottom: 60px;
+}
+table,tr,td{
+    border: 0.5px solid rgb(228, 227, 227);
+    border-collapse: collapse;
+}
+.tables{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+table{
+    box-shadow: 0px 0px 2px gray;
+    margin: 15px 60px;
+    text-align: center;
+    width: 95%;
+}
+.table1,.table2{
+    width: 45%;
+}
+td{
+    padding: 17px;
+}
+thead td{
+    padding: 35px;
+}
+.pricing button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+.pricing button:hover{
+    background-color: rgb(186, 186, 186);
+    color: black;
+}
+table:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.table1 thead{
+    background-color: gray;
+    color: white;
+}
+.table2 thead{
+    background-color: orangered;
+    color: white;
+}
+tfoot{
+    background-color: rgb(213, 213, 213);
+}
+
+
+/* footer */
+footer{
+    background-color:rgb(213, 213, 213) ;
+    padding: 60px;
+    margin-top: 75px;
+    text-align: center;
+}
+footer i{
+    margin: 3px;
+}
+footer i:hover{
+    opacity: 0.6;
+}
